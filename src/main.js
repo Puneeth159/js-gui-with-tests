@@ -4,7 +4,7 @@
 
 
         const  CountOfStories = document.querySelector("#CountOfStories");
-        const TaskPerStory= document.querySelector("#CountOfStories");
+        const TaskPerStory= document.querySelector("#TaskPerStory");
 
         const avgTasksPerStory= document.querySelector("#avgTasksPerStory");
        
