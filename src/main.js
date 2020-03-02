@@ -1,4 +1,8 @@
-const add = (x, y) => { return x + 2*y }
+const avg = { return Task/Total CountOfStories }
+// I just forgot my quiz level 1 question and did quiz level 2 question submitted in level 1. Sorry for that.
+        //input 1 is number i.e,CountOfStories and input 2 number i.e, avgTasksPerStory
+
+
 
 const validate = async (event) => {
   console.log(`triggered validate on ${event.target.id}`)
@@ -44,7 +48,7 @@ document.addEventListener('focusout', event => {
 });
 
 document.addEventListener('click', event => {
-  if (event.target && event.target.id === 'addButton') { updateWithAdd(event) }
+  if (event.target && event.target.id === 'calculateButton') { updateWithAdd(event) }
 });
 
 document.addEventListener('click', event => {
