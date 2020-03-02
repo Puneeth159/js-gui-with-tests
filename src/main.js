@@ -3,14 +3,18 @@
         //input 1 is number i.e,CountOfStories and input 2 number i.e, avgTasksPerStory
 
 
-        const count = document.querySelector("#CountOfStories");
-        const avg = document.querySelector("#avgTasksPerStory");
+        const  CountOfStories = document.querySelector("#CountOfStories");
+        const TaskPerStory= document.querySelector("#CountOfStories");
+
+        const avgTasksPerStory= document.querySelector("#avgTasksPerStory");
        
         button.addEventListener("click", calc);
         
         function calc(){
+            let avgTasksPerStory= TaskPerStory/TotalCountOfStories;
+           
             
-            calcavgTasksPerStory = (TaskPerStory/TotalCountOfStories);
+            calcavgTasksPerStory = TaskPerStory/TotalCountOfStories;
            
         }
         console.log(document.getElementById());
